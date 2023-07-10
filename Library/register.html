@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LIBRARY MANAGEMENT SYSTEM - New User Registration</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      background-image: url(library2.jpg);
+    }
+
+    .container {
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .container label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .container input[type="text"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    .container input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    .register{
+      display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>LIBRARY MANAGEMENT SYSTEM</h2>
+    <h3>New User Registration</h3>
+    <form method="post" action="">
+      <label for="username">Username</label>
+      <input name="username" type="text" required>
+
+      <label for="password">Password</label>
+      <input name="password" type="password" required>
+
+      <a href="catalog.html" class="register">Register</a>
+    </form>
+  </div>
+</body>
+</html>

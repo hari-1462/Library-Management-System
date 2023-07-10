@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LIBRARY MANAGEMENT SYSTEM - Login</title>
+  <style>
+    body {
+      background-image: url(background4.jpg);
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .container label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .container input[type="text"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    .container input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .container p {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .container a {
+      text-decoration: none;
+      color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>LIBRARY MANAGEMENT SYSTEM</h2>
+    <form method="post" action="catalog.html">
+      <label for="username">Username</label>
+      <input name="username" type="text" required>
+
+      <label for="password">Password</label>
+      <input name="password" type="password" required>
+
+      <input value="LOGIN" name="submit" type="submit" action="login.html">
+    </form>
+    <p>New User? <a href="register.html">Register here</a></p>
+  </div>
+</body>
+</html>
